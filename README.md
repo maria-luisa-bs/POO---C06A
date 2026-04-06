@@ -113,11 +113,11 @@ Sempre faça:
 Primeiro: cuidado com “if por marca”, você até poderia fazer assim:
 ```java id="t4x9pl"
 if (marca.equals("Apple")) {
-    preco = num;
+    preco = matricula;
 } else if (marca.equals("Samsung")) {
-    preco = num + 2600;
+    preco = matricula + 1234;
 } else if (marca.equals("Dell")) {
-    preco = num + 1500;
+    preco = matricula + 5678;
 }
 ```
 
