@@ -38,15 +38,15 @@ public class Main {
             {
                 case 1:
                     cliente.comprarComputador(computadors[0]);
-                    System.out.println("Computador modelo Dell foi adicionado ao seu carrinho!");
+                    System.out.println("Computador modelo Apple foi adicionado ao seu carrinho!");
                     break;
                 case 2:
                     cliente.comprarComputador(computadors[1]);
-                    System.out.println("Computador modelo Apple foi adicionado ao seu carrinho!");
+                    System.out.println("Computador modelo Samsung foi adicionado ao seu carrinho!");
                     break;
                 case 3:
                     cliente.comprarComputador(computadors[2]);
-                    System.out.println("Computador modelo Samsung foi adicionado ao seu carrinho!");
+                    System.out.println("Computador modelo Dell foi adicionado ao seu carrinho!");
                     break;
                 case 0:
                     System.out.println("Compra finalizada com sucesso, agradeçemos a preferência!");
